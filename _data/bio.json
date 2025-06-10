@@ -35,9 +35,7 @@
       "area": "Computer Science (expected December, 2025)",
       "studyType": "B.S.",
       "startDate": "2021-08-17",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "endDate": "Present"
     }
   ],
   "work": [
@@ -66,7 +64,7 @@
         "Design firmware for distributed weather sensor network",
         "Maintain custom data collection and storage infrastructure"
       ]
-    },
+    }],
   "references": [
     {
       "name": "Available upon request"
