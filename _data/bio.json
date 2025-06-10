@@ -26,7 +26,7 @@
     },
     {
       "name": "Toolsets/OS/Communication Tools",
-      "keywords": [ "MacOS", "Linux", "Git/GitHub, WebEx, Zoom, Slack, Discord" ]
+      "keywords": [ "MacOS", "Linux", "Git/GitHub", "WebEx", "Zoom", "Slack", "Discord" ]
     }
   ],
   "education": [
@@ -42,7 +42,6 @@
     {
       "company": "Apple",
       "position": "AHA T1 Advisor",
-      "website": "",
       "startDate": "2023-02-07",
       "endDate": "Present",
       "summary": "Providing excellent customer support on a Software related basis for all Apple Products to some degree.",
@@ -51,20 +50,17 @@
         "Efficiently multitasking during every minute of every shift in a way to save the customer and the business time.",
         "Receive and instantly implement training in the ever-evolving tech space that Apple conquers."
       ]
-    },
+    }
+  ],
   "volunteer": [
     {
       "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    }],
+      "position": "Data Management Volunteer",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Maintain custom data collection and storage infrastructure"
+    }
+  ],
   "references": [
     {
       "name": "Available upon request"
