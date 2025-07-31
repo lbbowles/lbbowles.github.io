@@ -1,19 +1,18 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+image: img/airplane/airplane-square.png
+title: "Airplane Controller"
+date: 2023
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - C
+  - Linux Shell
   - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+summary: "A multithreaded, networked air traffic ground control server for CSC 362."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/airplane/airplane-header.png">
 
 Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
