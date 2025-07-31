@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/MachineLearning/Machine-square.jpg
 title: "Fruit Identifying Machine Learning Model"
 date: 2025
 published: true
