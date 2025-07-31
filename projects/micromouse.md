@@ -2,14 +2,12 @@
 layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+title: "Fruit Identifying Machine Learning Model"
+date: 2025
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Python
+summary: "Machine Learning model that utilized Deep Forest Learning to identify between three fruits."
 ---
 
 <div class="text-center p-4">
