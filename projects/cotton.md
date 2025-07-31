@@ -1,17 +1,19 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+image: "https://github.com/user-attachments/assets/b5a603ba-0ca0-4fc9-8754-d047e628b952"
+title: "Tutelage"
+date: 2025
 published: true
 labels:
-  - Lisp
+  - Java
+  - FTLH
+  - HTML
   - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+summary: "Half a semester long project worked on by myself and two other Computer Science students for CSC 330: Software Engineering.  I worked on all functions related to tutors."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img src="https://github.com/user-attachments/assets/b5a603ba-0ca0-4fc9-8754-d047e628b952" alt="Tutelege" width="500" height="149" />
 
 Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
