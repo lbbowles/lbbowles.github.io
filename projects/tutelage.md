@@ -30,6 +30,8 @@ After completing our respective sections, we worked with our teammate assigned t
 
 While not the most technically complex project I've completed, Tutelage stands out to be one that I'm most proud of.  It solidified both my technical foundation and my ability to collaborate effectively within a development team - skills that are essential in real-world software engineering.
 
+Below this I will put an excerpt from our ReadMe file that includes the functions applicable for the Student, Tutor, and Admin that were successfully added:
+
 
 <hr>
 
@@ -42,7 +44,6 @@ Student (Customer)
 - Can pick from a list of available tutors
 - Give tutors a review
 - The customer can subscribe for a one-on-one scheduled tutoring session
-- Can utilize a TBD API to access recommended course materials (whether course specific or just useful for studying)
 
 Tutor (Provider)
 - Can create/modify their tutor profile
