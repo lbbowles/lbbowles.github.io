@@ -13,7 +13,7 @@ labels:
 summary: "Half a semester long project worked on by myself and two other Computer Science students for CSC 330: Software Engineering.  I worked on all functions related to tutors."
 ---
 
-<img src="https://github.com/user-attachments/assets/b5a603ba-0ca0-4fc9-8754-d047e628b952" alt="Tutelege" width="655" height="655" />
+<img src="https://github.com/user-attachments/assets/b5a603ba-0ca0-4fc9-8754-d047e628b952" alt="Tutelege" width="655" height="195" />
 
 Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
