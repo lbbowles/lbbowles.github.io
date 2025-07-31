@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/tutelage/tutelage-header.png.png
+image: img/tutelage/tutelage-square.png
 title: "Tutelage"
 date: 2025
 published: true
