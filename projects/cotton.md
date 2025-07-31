@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: "https://github.com/user-attachments/assets/b5a603ba-0ca0-4fc9-8754-d047e628b952"
+image: img/tutelage/tutelage-header.png.png
 title: "Tutelage"
 date: 2025
 published: true
