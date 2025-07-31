@@ -14,22 +14,42 @@ summary: "Machine Learning model that utilized Deep Forest Learning to identify 
   <img width="200px" src="../img/MachineLearning/Machine-Header.png" class="img-thumbnail" >
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This is definitely my favorite project that I have ever completed; written entirely in Python and accompanied by an analysis paper that I wrote in LaTeX, it hinges entirely on taking images from a users desktop (fruits in this instance, although anything would work), converting them to grayscale, making their dimension divisible by eight and collecting data on every applicable pixel to place within a CSV file while appending the applicable class that it is numerically to the end of it - after that is facilitated, we can utilize different Machine Learning models to train from the CSV's and can achieve accuracies when the machine is testing to higher than 80%.  This program although only a few hundred lines long was the culmination of hundreds of pages read, dozens of algorithms understood, and seemingly countless hours of applying it, seeing the result and repeating.  I could honestly talk about this one project all day, but as aforementioned, I put it all within my PDF file alongside all of the input and output pictures and graphs for the project at the link at bottom of this page.  Just to maybe entice you, I will put a small blurb from that PDF below this: 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+<hr>
 
-Here is some code that illustrates how we read values from the line sensors:
+<pre>
 
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+XIII. REGRESSION BASED MODEL
+Task 2 is to introduce a regression-based model in the
+form of either lasso or elastic-net regression as a two-class
+classifier. We then are supposed to form confusion matrices
+using the responses for the predicted and actual labels and then
+subsequently save them. To be fully transparent, I know that
+the entire point of the first task was to call upon data domains
+that we just saved (80/20), but throughout this entire task I
+had a hard time with that so ultimately just reverted to the
+normal pd.read. . . route and just copied what was done from
+the task above into this section. Luckily for all us students,
+most of the code I had to use for implementation of Lasso
+was provided within the class file: ”class-code-lasso-reg.txt”.
+Some of the small tweaks that I made include using ’label’
+instead of nn for when creating X and y because I was getting
+an error: could not convert string to float: feature_0 so
+just .dropping label for X was infinitely easier than trying to
+troubleshoot anything further. The other notable change that
+I made was increasing the max iterations to 10000 - I did
+this as I received an error in my console intermittently that
+convergence was not being reached and to resolve that I could
+simply raise iterations so I did and have stopped having issues.
+The Math was already provided in Class Files so very little
+issues there besides occasional errors about division, so I made
+it an if statement to resolve that. Although I will say and you
+will see from the console output, it is definitely wrong - but I
+am just using what was provided.
+  
+</pre>
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+<hr>
+
+Source: <a href="https://github.com/lbbowles/Fruit-Identifying-Machine-Learning-Model-CSC-340">lbbowles/Fruit-Identifying-Machine-Learning-Model-CSC-340</a>
